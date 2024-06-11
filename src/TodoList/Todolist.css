@@ -1,4 +1,4 @@
-body {
+ body {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     text-align: center;
@@ -105,3 +105,39 @@ span{
     color: #fdf0d5;
 
 }
+
+ @media (max-width: 600px) {
+    input,
+    button,
+    h1,
+    li {
+      width: 90%;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+      align-items: center;
+      margin-left: 50%;
+    }
+  
+    li {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    input{
+        margin-left: 50%;
+    }
+
+    button{
+        margin-left: 60%;
+    }
+  
+    .delete {
+      align-self: center;
+      margin-top: 10px;
+    }
+  }
+
+
+  
