@@ -49,7 +49,7 @@ const TodoList = () => {
               style={{marginTop: "5px", marginBottom: "5px" }}
               onClick={() => handleDeleteTodo(index)}
             >
-              Delete
+              -
             </button>
           </li>
         ))}

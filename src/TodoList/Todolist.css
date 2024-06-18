@@ -103,41 +103,98 @@ span{
     cursor:pointer;
     background-color: #2b2d42;
     color: #fdf0d5;
-
 }
 
- @media (max-width: 600px) {
-    input,
-    button,
-    h1,
-    li {
-      width: 90%;
-    }
-  
-    h1 {
-      font-size: 1.5em;
-      align-items: center;
-      margin-left: 50%;
-    }
-  
-    li {
-      flex-direction: row;
-      align-items: center;
+@media (max-width: 1024px) {
+    input {
+        width: 380px;
+        font-size: 18px;
     }
 
-    input{
-        margin-left: 50%;
+    ul {
+        width: 600px;
     }
 
-    button{
-        margin-left: 60%;
+    li {
+        font-size: 14px;
     }
-  
+
+    span {
+        width: 350px;
+    }
+
     .delete {
-      align-self: center;
-      margin-top: 10px;
+        width: 80px;
     }
-  }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    input {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    ul {
+        width: 500px;
+    }
+
+    li {
+        font-size: 13px;
+        padding: 5px 20px;
+    }
+
+    span {
+        width: 300px;
+        padding: 5px 20px;
+    }
+
+    .delete {
+        width: 60px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    ul {
+        width: 100%;
+        padding: 5px 20px;
+    }
+
+    li {
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+
+    span {
+        width: 100%;
+        padding: 5px 15px;
+    }
+
+    .delete {
+        width: 50px; 
+        margin-left: 0;
+    }
+}
+
+
 
 
   
